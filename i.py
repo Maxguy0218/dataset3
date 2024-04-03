@@ -5,7 +5,7 @@ def main():
     st.title("View Dataset")
 
     # Load the dataset
-    df = pd.read_csv("inventory.csv")  # Replace "your_dataset.csv" with your dataset file path
+    df = pd.read_csv("Inventory dataset.csv")  # Replace "your_dataset.csv" with your dataset file path
 
     # Display the dataset
     st.write(df)
